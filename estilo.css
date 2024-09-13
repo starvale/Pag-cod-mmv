@@ -1,0 +1,120 @@
+.cabecera {
+  background-color: #cab18b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: top 0.4s;
+}
+.logo {
+  position: center;
+  align-self: flex-start;
+  z-index: 4;
+  padding: 4px;
+  margin: 1;
+}
+.img {
+  z-index: 900;
+  margin-top: 8px;
+  margin-left: 20px;
+  box-shadow: inset;
+}
+.menu {
+  display: inline-flex;
+  text-align: center;
+  float: right;
+}
+.menu > ul {
+  float: right;
+  display: inline-flex;
+  text-decoration: none;
+  right: 2;
+}
+.menu > ul > li {
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+.menu > ul > li > a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+.menu > ul > li > a:hover {
+  color: #ecabe7;
+  padding: 25px;
+  background-color: #cab18b;
+  border-radius: 5px;
+}
+#libro {
+  font-family: Roboto, cursive;
+  width: 50%;
+  height: 400px;
+  color: #4b310b;
+  padding-left: 30px;
+  padding-top: 20px;
+  margin-left: 10%;
+}
+.novedades {
+  font-family: Roboto, cursive;
+  width: 50%;
+  height: 400px;
+  color: red;
+  padding-left: 30px;
+  padding-top: 20px;
+  margin-left: 10%;
+  padding-top: 4%;
+}
+.inicio {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  background:
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner {
+  width: 20%;
+  padding: 25px;
+  margin-left: 5%;
+  background-color: rgba(220, 75, 105, 0.7);
+}
+.tbanner {
+  font-size: 32px;
+  font-family: cursive;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px #2582BB;
+}
+.pbanner {
+  font-weight: bolder;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 20px;
+  color: #5e3f32;
+  text-shadow: 2px 3px #993e01;
+}
+.generos {
+  width: 21%;
+  margin: 0, 4px;
+  padding-left: 2%;
+  text-align: center;
+  text-decoration: none;
+  font-family: Roboto, cursive;
+  background-image: url(media/libros.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.generos:hover {
+  transform: rotate(350deg);
+  transform-origin: right bottom 2;
+  font-size: 30px;
+  text-shadow: 2px 2px #EDE60E;
+  text-decoration: none;
+}
+.generos a {
+  text-decoration: none;
+  color: #EA1616;
+}
